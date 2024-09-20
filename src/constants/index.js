@@ -82,8 +82,8 @@ export const PROJECTS = [
     image: project10,
     description:
       "EmpowerU is a digital platform for personal and professional growth, offering tailored learning experiences. It uses agile methods and user feedback to create a user-focused solution, helping individuals achieve their goals and enhance their well-being. ",
-    technologies: ["Canva", "Figma", "Product Development"],
-    figma:"https://www.figma.com/design/nsElWRNaSjoafDF4WMniG2/EmpowerU?t=yDecXl8SeAqTIj7E-0"
+    technologies: ["Canva", "Figma", "Product Development", "UI/UX Designing"],
+    canva:"https://www.canva.com/design/DAF7RtHdrzA/Ljk31IqjAGABgAsrGXBoow/edit?utm_content=DAF7RtHdrzA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
 ];
 
