@@ -57,14 +57,14 @@ const Project = () => {
                   </button>
                 </a>
               )}
-              {Project.figma && (
+              {Project.canva && (
                 <a
-                  href={Project.figma}
+                  href={Project.canva}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="mr-2 mt-4 rounded-xl bg-neutral-900 px-3 py-2 text-md font-medium text-green-300">
-                    View on Figma
+                    View on Canva
                   </button>
                 </a>
               )}
