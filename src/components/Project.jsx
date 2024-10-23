@@ -46,6 +46,7 @@ const Project = () => {
                 </span>
               ))}
               <div className="ml-0">
+<<<<<<< HEAD
                 {Project.github && (
                   <a
                     href={Project.github}
@@ -79,6 +80,30 @@ const Project = () => {
                     </button>
                   </a>
                 )}
+=======
+              {Project.github && (
+                <a
+                  href={Project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="mr-2 mt-4 rounded-xl bg-neutral-900 px-3 py-2 text-md font-medium text-pink-300">
+                    View on GitHub
+                  </button>
+                </a>
+              )}
+              {Project.canva && (
+                <a
+                  href={Project.canva}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="mr-2 mt-4 rounded-xl bg-neutral-900 px-3 py-2 text-md font-medium text-green-300">
+                    View on Canva
+                  </button>
+                </a>
+              )}
+>>>>>>> 5efdee5b13296de5591edbda92cb7ac8ea419fd1
               </div>
             </motion.div>
           </div>
