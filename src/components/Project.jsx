@@ -23,7 +23,7 @@ const Project = () => {
             >
               <img
                 src={Project.image}
-                width={150}
+                width={200}
                 height={150}
                 alt={Project.title}
                 className="mb-6 rounded"
@@ -32,7 +32,7 @@ const Project = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{duration: 1}}
+              transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">{Project.title}</h6>
@@ -45,6 +45,41 @@ const Project = () => {
                   {tech}
                 </span>
               ))}
+              <div className="ml-0">
+                {Project.github && (
+                  <a
+                    href={Project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="mr-2 mt-4 rounded-xl bg-neutral-900 px-3 py-2 text-md font-medium text-pink-300">
+                      View on GitHub
+                    </button>
+                  </a>
+                )}
+                {Project.canva && (
+                  <a
+                    href={Project.canva}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="mr-2 mt-4 rounded-xl bg-neutral-900 px-3 py-2 text-md font-medium text-green-300">
+                      View on Canva
+                    </button>
+                  </a>
+                )}
+                {Project.hostedLink && ( 
+                  <a
+                    href={Project.hostedLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="mr-2 mt-4 rounded-xl bg-neutral-900 px-3 py-2 text-md font-medium text-blue-300">
+                      View Live
+                    </button>
+                  </a>
+                )}
+              </div>
             </motion.div>
           </div>
         ))}
