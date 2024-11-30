@@ -6,6 +6,7 @@ const About = lazy(() => import("./components/About"));
 const Skills = lazy(() => import("./components/Skills"));
 const Project = lazy(() => import("./components/Project"));
 const Contact = lazy(() => import("./components/Contact"));
+const Footer = lazy(() => import("./components/Footer"));
 
 const App = () => {
   return (
@@ -35,6 +36,9 @@ const App = () => {
           </section>
           <section id="contact">
             <Contact />
+          </section>
+          <section id="footer">
+            <Footer />
           </section>
         </Suspense>
       </div>
