@@ -22,7 +22,7 @@ const Footer = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
-            className="text-xl lg:text-2xl font-semibold bg-gradient-to-r from-sky-500 via-purple-400 to-red-500 bg-clip-text text-transparent"
+            className="text-xl lg:text-2xl font-semibold bg-gradient-to-r from-white via-purple-300 to-purple-500 bg-clip-text text-transparent"
           >
             Let’s Create Something Extraordinary Together
           </motion.h3>
@@ -47,10 +47,8 @@ const Footer = () => {
             className="text-sm lg:text-base"
           >
             Email:{" "}
-            <span className="text-blue-500">
-              shivanshmishradpsmbd@gmail.com
-            </span>{" "}
-            | Phone: <span className="text-blue-500">+91-7906676220</span>
+            <span className="text-sky-400">shivanshmishradpsmbd@gmail.com</span>{" "}
+            | Phone: <span className="text-sky-400">+91-7906676220</span>
           </motion.p>
         </div>
 
