@@ -9,15 +9,19 @@ import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
 import project11 from "../assets/projects/project-11.png";
+import project12 from "../assets/projects/project-12.png";
 
-export const HERO_CONTENT = "with expertise in building responsive and user-friendly web applications. I thrive on turning ideas into reality by leveraging modern technologies, creating seamless experiences that engage and inspire users. Let's connect and collaborate to build something amazing!";
+export const HERO_CONTENT =
+  "with expertise in building responsive and user-friendly web applications. I thrive on turning ideas into reality by leveraging modern technologies, creating seamless experiences that engage and inspire users. Let's connect and collaborate to build something amazing!";
 
+export const ABOUT_TEXT1 =
+  "I'm a dedicated Full Stack Developer with a passion for crafting responsive and user-friendly web applications. My journey in tech has equipped me with a diverse skill set, allowing me to tackle challenges with creativity and efficiency.";
 
-export const ABOUT_TEXT1 = "I'm a dedicated Full Stack Developer with a passion for crafting responsive and user-friendly web applications. My journey in tech has equipped me with a diverse skill set, allowing me to tackle challenges with creativity and efficiency.";
+export const ABOUT_TEXT2 =
+  "I thrive in collaborative environments and enjoy turning innovative ideas into reality. By leveraging modern technologies, I aim to create seamless experiences that engage and inspire users.";
 
-export const ABOUT_TEXT2 = "I thrive in collaborative environments and enjoy turning innovative ideas into reality. By leveraging modern technologies, I aim to create seamless experiences that engage and inspire users.";
-
-export const ABOUT_TEXT3 = "Let’s connect and explore how we can build something amazing together, as I am always eager to learn from others and contribute to impactful projects.";
+export const ABOUT_TEXT3 =
+  "Let’s connect and explore how we can build something amazing together, as I am always eager to learn from others and contribute to impactful projects.";
 
 export const PROJECTS = [
   {
@@ -29,6 +33,23 @@ export const PROJECTS = [
     github: "https://github.com/Shivuu2803/Portfolio-Website",
     hostedLink: "https://portfolio-website-indol-rho.vercel.app/",
     category: "frontend",
+  },
+  {
+    title: "Real-time Chat App",
+    image: project12,
+    description:
+      "This is a real-time chat application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to communicate in real time with features such as authentication, chat rooms, and a responsive design.",
+    technologies: [
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "Mongodb",
+      "JWT",
+      "socket.io",
+    ],
+    github: "https://github.com/Shivuu2803/Full-Stack-Chat-App",
+    hostedLink: "https://full-stack-chat-app-n691.onrender.com/",
+    category: "fullstack",
   },
   {
     title: "Blog-Website",
@@ -54,9 +75,15 @@ export const PROJECTS = [
     image: project1,
     description:
       "An Employee Management System (EMS) built with React, featuring separate dashboards for admin and employee management. The application utilizes local storage for data persistence and employs Tailwind CSS for a professional, responsive design. This project highlights my ability to develop functional web applications that meet organizational requirements.",
-    technologies: ["ReactJS", "Local Storage", "Tailwind CSS", "Responsive Web Design"],
+    technologies: [
+      "ReactJS",
+      "Local Storage",
+      "Tailwind CSS",
+      "Responsive Web Design",
+    ],
     github: "https://github.com/Shivuu2803/Employee-Management-System",
-    hostedLink: "https://vercel.com/api/toolbar/link/employee-management-system-rose-one.vercel.app?via=project-dashboard-alias-list&p=1&page=/",
+    hostedLink:
+      "https://vercel.com/api/toolbar/link/employee-management-system-rose-one.vercel.app?via=project-dashboard-alias-list&p=1&page=/",
     category: "frontend",
   },
   {
