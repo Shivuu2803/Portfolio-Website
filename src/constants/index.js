@@ -31,7 +31,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information, designed with a modern aesthetic and smooth animations to enhance user experience while effectively highlighting expertise and accomplishments in software development.",
     technologies: ["TailwindCSS", "Javascript", "ReactJS"],
     github: "https://github.com/Shivuu2803/Portfolio-Website",
-    hostedLink: "https://portfolio-website-indol-rho.vercel.app/",
+    hostedLink: "https://portfolio-website-one-kappa-63.vercel.app/",
     category: "frontend",
   },
   {
