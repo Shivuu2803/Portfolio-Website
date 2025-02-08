@@ -52,6 +52,16 @@ export const PROJECTS = [
     category: "fullstack",
   },
   {
+    title: "Voting Application-Backend",
+    image: project13,
+    description:
+      "The Voting Application Backend is a Node.js and Express-based backend that allows users to securely cast votes for a given set of candidates. It ensures a fair voting process where each user can vote only once, and an admin manages the candidates. The application uses MongoDB as the database and supports authentication via an Aadhar card number and password.",
+    technologies: ["NodeJS", "ExpressJS", "Mongodb","Postman"],
+    github: "https://github.com/Shivuu2803/Voting-Application-Backend",
+    hostedLink: "https://voting-application-backend-hvzy.onrender.com/",
+    category: "backend",
+  },
+  {
     title: "Blog-Website",
     image: project2,
     description:
