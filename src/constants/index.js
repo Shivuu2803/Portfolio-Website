@@ -10,6 +10,7 @@ import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
 import project11 from "../assets/projects/project-11.png";
 import project12 from "../assets/projects/project-12.png";
+import project13 from "../assets/projects/project-13.png";
 
 export const HERO_CONTENT =
   "with expertise in building responsive and user-friendly web applications. I thrive on turning ideas into reality by leveraging modern technologies, creating seamless experiences that engage and inspire users. Let's connect and collaborate to build something amazing!";
